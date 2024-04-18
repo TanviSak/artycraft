@@ -1,0 +1,8 @@
+/* Navbar */
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.navbar img{
+    width: 90px;
+}
