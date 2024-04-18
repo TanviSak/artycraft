@@ -17,7 +17,7 @@
 
 /* Main Image */
 .mainImage{
-    background-image: url('/assests/image/spiritual/shrinathji.webp');
+    background-image: url('../../assets/image/spiritual/shrinathji.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
