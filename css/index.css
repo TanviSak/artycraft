@@ -1,0 +1,651 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/* Navbar */
+.nav-link:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.sec1 {
+
+    height: 600px;
+    width: 100%;
+    background-color: bisque;
+    background-image: url(https://thumbs.dreamstime.com/b/merry-christmas-new-year-holiday-christmas-background-handmade-present-gift-boxes-tag-merry-christmas-new-year-126990543.jpg);
+    background-position: center;
+    /* background-size: cover; */
+}
+
+.carousel-tex {
+    position: absolute;
+    color: white;
+    width: fit-content;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.carousel-tex h1 {
+    font-size: 30px;
+}
+
+.carousel-tex p {
+    font-size: 13px;
+}
+
+.carousel-inner img {
+    height: 100vh !important;
+}
+
+.sec2 {
+    padding: 50px 0 50px;
+    background-color: #c1eaea;
+}
+
+.sec2 h2 {
+    font-size: 17px;
+    text-align: center;
+    margin: 0 auto 0;
+    word-spacing: 2px;
+    font-weight: 500;
+    max-width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sec2 p {
+    font-size: 14px;
+    text-align: center
+}
+
+.box1 {
+    /* height: 400px;
+    width: 260px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 170px; */
+}
+
+.box2 {
+    background-image: url(https://roomester.ru/wp-content/uploads/2018/12/rezba-po-derevu-1-1062x690.jpg);
+    /* width: 250px; */
+    height: 240px !important;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(81, 80, 80);
+}
+
+.btex1 {
+    font-size: 23px;
+    color: rgb(12, 11, 7);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.box3 {
+    height: 400px;
+    width: 260px;
+    border-top-right-radius: 150px;
+    border-top-left-radius: 150px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.box4 {
+    background-image: url(https://i.pinimg.com/736x/99/d7/74/99d77402d19f6ab73408430fd010a1ad.jpg);
+    width: 250px;
+    height: 240px !important;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(81, 80, 80);
+}
+
+.btex3 {
+
+    font-size: 23px;
+    color: rgb(12, 11, 7);
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.box5 {
+
+    height: 400px;
+    width: 260px;
+    border-radius: 30px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.box6 {
+    background-image: url(https://rulend.ru/images/products/84/48/28/8448281-2.jpg);
+    width: 250px;
+    height: 240px !important;
+    margin: 0 auto;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgb(81, 80, 80);
+}
+
+.btex5 {
+
+    font-size: 23px;
+    color: rgb(12, 11, 7);
+    text-align: center;
+    padding-top: 20px;
+}
+
+.craft-section {
+    padding: 70px 0;
+}
+
+.craft-section h2,
+.section h2 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 700
+}
+
+.craft-section p {
+    padding-top: 20px;
+    font-size: 13px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    text-align: center
+}
+
+.section p {
+    padding-top: 20px;
+    font-size: 15px;
+    margin-bottom: 30px;
+    word-spacing: 3px;
+    text-align: center
+}
+
+.sec3 {
+    height: 500px;
+}
+
+.box7 {
+
+    height: 500px;
+    /* background-color: rgb(116, 112, 112); */
+    width: 500px;
+    float: left;
+    margin-left: 80px;
+}
+
+.animated-button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    padding: 10px 30px;
+    border: 4px solid;
+    border-color: transparent;
+    font-size: 16px;
+    background-color: inherit;
+    border-radius: 10px;
+    font-weight: 600;
+    color: rgb(10, 15, 4);
+    box-shadow: 0 0 0 2px rgb(12, 12, 12);
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+    position: absolute;
+    width: 24px;
+    fill: rgb(8, 9, 6);
+    z-index: 9;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+    right: 16px;
+}
+
+.animated-button .arr-2 {
+    left: -25%;
+}
+
+.animated-button .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    background-color: rgb(193, 234, 234);
+    border-radius: 50%;
+    border: 1px solid;
+    opacity: 0;
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+    position: relative;
+    z-index: 1;
+    transform: translateX(-12px);
+    transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+    box-shadow: 0 0 0 12px transparent;
+    color: #212121;
+    border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+    right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+    left: 16px;
+}
+
+.animated-button:hover .text {
+    transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+    fill: #212121;
+}
+
+.animated-button:active {
+    scale: 0.95;
+    box-shadow: 0 0 0 4px rgb(21, 23, 17);
+}
+
+.animated-button:hover .circle {
+    width: 220px;
+    height: 220px;
+    opacity: 1;
+}
+
+.box8 {
+    height: 200px;
+    width: 280px;
+    background-image: url(https://template74678.motopreview.com/mt-demo/74600/74678/mt-content/uploads/2018/11/mt-1652-blog-img-8.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 20px;
+
+}
+
+.sec4 {
+
+    height: 620px;
+    background-color: #c1eaea;
+    margin-top: 25px;
+}
+
+.box9 {
+    height: 400px;
+    width: 260px;
+    /* background-color:rgb(241,237,231); */
+    border-radius: 30px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.box10 {
+    background-image: url(https://mindmatrixwellnessstudio.com/wp-content/uploads/2018/11/Mind-icon-2-optimized.jpg);
+    background-size: cover;
+    box-shadow: 5px 5px 20px rgb(81, 80, 80);
+    margin: 0 auto;
+}
+
+.btex9 {
+
+    font-size: 23px;
+    color: rgb(12, 11, 7);
+    text-align: center;
+    /* font-weight: 200px; */
+    padding-top: 20px;
+}
+
+
+
+.box11 {
+    height: 400px;
+    width: 260px;
+    /* background-color:rgb(241,237,231); */
+    border-radius: 30px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.box12 {
+    /* height: 200px;
+    width: 280px; */
+    background-color: rgb(198, 162, 109);
+    background-image: url(https://almatykilem.kz/uploads/catalog/navolocka-indijskij-slon-3-image-a1f7043457.jpg);
+    background-size: cover;
+    /* border-top-right-radius: 100px; */
+    /* border-top-left-radius: 100px; */
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px rgb(81, 80, 80);
+}
+
+.btex11 {
+
+    font-size: 23px;
+    color: rgb(12, 11, 7);
+    text-align: center;
+    /* font-weight: 200px; */
+    padding-top: 20px;
+}
+
+
+.box13 {
+
+    height: 400px;
+    width: 260px;
+    /* background-color:rgb(241,237,231); */
+    border-radius: 30px;
+    float: left;
+    margin-top: 70px;
+    margin-left: 170px;
+}
+
+.box14 {
+    height: 200px;
+    width: 280px;
+    background-image: url(https://i.pinimg.com/736x/34/59/02/34590228138b51208a52751faa6fa620.jpg);
+    background-size: cover;
+    /* border-top-right-radius: 100px; */
+    /* border-top-left-radius: 100px; */
+    margin: 0 auto;
+    box-shadow: 5px 5px 20px rgb(81, 80, 80);
+}
+
+.btex13 {
+
+    font-size: 23px;
+    color: rgb(12, 11, 7);
+    text-align: center;
+    /* font-weight: 200px; */
+    padding-top: 20px;
+}
+
+.box15 {
+    height: 250px;
+    width: 450px;
+    background-image: url(../assets/last\ img.png);
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+.section {
+    padding: 50px 0;
+}
+
+.section p {}
+
+/* Footer*/
+i {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+i:hover {
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+
+/* =================== media =============== */
+
+@media (min-width:320px) {
+    .sec2 h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .carousel-tex h1 {
+        font-size: 25px;
+    }
+
+    .section h2 {
+        margin-top: 20px;
+    }
+
+    .section button {
+        margin: auto;
+    }
+
+    .box2,
+    .box4,
+    .box6 {
+        width: 290px;
+        height: 250px
+    }
+
+    .box10,
+    .box12,
+    .box14 {
+        width: 290px;
+        height: 250px
+    }
+
+    .box8,
+    .box15 {
+        height: 200px;
+        width: 270px;
+    }
+
+    .craft-section button {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .carousel-tex h1 {
+        font-size: 30px;
+    }
+
+    .carousel-tex p {
+        font-size: 12px;
+    }
+
+    .craft-section button {
+        margin: 0 auto 30px auto;
+    }
+
+    .box8,
+    .box15 {
+        height: 300px;
+        width: 450px;
+    }
+
+    .section h2 {
+        margin-top: 20px;
+    }
+
+    .section button {
+        margin: auto;
+    }
+
+    .sec2 h2 {
+        max-width: 60%;
+        margin: 10px auto 20px;
+        font-size: 17px;
+    }
+
+    .btex1,
+    .btex3,
+    .btex5 {
+        font-size: 18px;
+    }
+
+    .box1,
+    .box3,
+    .box5 {
+        width: 80%;
+        /* height: auto; */
+    }
+
+    .box2,
+    .box4,
+    .box6,
+    .box10,
+    .box12,
+    .box14 {
+        width: 290px;
+        height: 250px
+    }
+}
+
+@media (min-width: 768px) {
+    .carousel-tex h1 {
+        font-size: 40px;
+    }
+
+    .carousel-tex p {
+        font-size: 15px;
+    }
+
+    .sec2 {
+        padding: 70px 0 70px;
+    }
+
+    .box8,
+    .box15 {
+        height: 450px;
+        width: 550px;
+    }
+
+    .sec2 h2 {
+        max-width: 60%;
+        margin: 10px auto 20px;
+    }
+
+    .box1,
+    .box3,
+    .box5 {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        margin-left: 0;
+        border-top-right-radius: 75px;
+        border-top-left-radius: 75px;
+    }
+
+    .box2,
+    .box4,
+    .box6 {
+        height: 350px;
+        width: 300px;
+        /* border-top-right-radius: 75px;
+        border-top-left-radius: 75px; */
+    }
+
+    .craft-section {
+        padding: 40px 0;
+    }
+
+    .craft-section p {
+        font-size: 15px;
+    }
+
+    .craft-section button {
+        margin: 0 auto 30px auto;
+    }
+
+    .box10,
+    .box12,
+    .box14 {
+        width: 305px;
+        height: 240px;
+    }
+
+    .box8,
+    .box15 {
+        height: 350px;
+        width: 650px;
+    }
+
+    h6 {
+        font-size: 18px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .section h2 {
+        margin-top: 20px;
+    }
+
+    .section button {
+        margin: 0 auto;
+    }
+}
+
+@media (min-width: 991px) {
+
+    .carousel-tex h1 {
+        font-size: 60px;
+    }
+
+    .carousel-tex p {
+        font-size: 15px;
+    }
+
+    .sec2 {
+        padding: 70px 0 70px;
+    }
+
+    .sec2 h2 {
+        max-width: 60%;
+        margin: 10px auto 20px;
+    }
+
+    .box1,
+    .box3,
+    .box5 {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        margin: 20px 0;
+    }
+
+    .box8 {
+        height: 300px;
+        width: 470px;
+    }
+
+    .box15 {
+        height: 290px;
+        width: 453px;
+    }
+
+    .box10,
+    .box12,
+    .box14 {
+        width: 300px;
+        height: 240px;
+    }
+
+
+}
