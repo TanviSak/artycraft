@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>orderconfirmation</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/orderconfirmation.css">
+</head>
+
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-lg fixed-top" style="background-color: #213236; color: white;">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">
+                <img src="../asstes/image/logo.png" alt="" class="logot" height="50px">
+            </a>
+            <button class="navbar-toggler bg-light" style="padding: 1px 5px 1px;" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link active pe-5 pe-5 text-white " aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active pe-5 text-white" aria-current="page" href="../top art/top art.html">Top7 Art</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white pe-5" href="../craft home/craft home.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Craft
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../Craft Essentials/Craft Essentials main.html"
+                                    target="_blank">Craft Essentials</a></li>
+                            <li><a class="dropdown-item" href="../DIY Sets/DIY Sets main.html">Diy Sets</a></li>
+                            <li><a class="dropdown-item" href="./Hobby Supplies main.html">Hobby Supplies</a></li>
+                            <li><a class="dropdown-item" href="../Dream Catcher/Dream Catcher main.html">Dream Catcher</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-white pe-5" href="../art home/art home.html" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Art
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../haritage/heritage.html">Heritage</a></li>
+                            <li><a class="dropdown-item" href="../Shawls&Stoles/Shawls&Stoles1.html">Shawls & Stoles</a></li>
+                            <li><a class="dropdown-item" href="../spiritual/spiritualMain.html">Spiritual</a></li>
+                            <li><a class="dropdown-item" href="../collector/collectorMain.html">Collector's Item</a></li>
+                            <li><a class="dropdown-item" href="../rare/Rare.html">Rare</a></li>
+                            <li><a class="dropdown-item" href="../technology/technology.html">technology</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active pe-5 text-white" aria-current="page" href="../signin/login.html">Account</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+	<div class="container-fluid">
+		<div class="row line">
+			<div class="col-12" style="margin-top: 1%; padding: 5px; font-size: 20px; letter-spacing: 1px;">
+				<p>Transaction times out in 13:33 mins</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
+	
+
+		<h2 style="margin-top: 3%;">Billing Information</h2>
+		<div class="row">
+			
+			<!-- Left Column (Customer Information and Shipping Address) -->
+			<div class="col-md-8">
+				
+				<!-- Customer Information -->
+				<div class="row mb-3">
+
+					<div class="row mb-3">
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="firstName" placeholder="First name">
+						</div>
+						<div class="col-md-6">
+							<input type="text" class="form-control" id="lastName" placeholder="Last name">
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-12">
+
+							<input type="text" class="form-control" id="streetAddress"
+								placeholder="Street address">
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-6">
+
+							<input type="text" class="form-control" id="zip" placeholder="Postal / Zip">
+						</div>
+						<div class="col-md-6">
+
+							<input type="text" class="form-control" id="city" placeholder="City">
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-6">
+
+							<input type="text" class="form-control" id="aptBuildingNo"
+								placeholder="India">
+						</div>
+						<div class="col-md-6">
+
+							<input type="text" class="form-control" id="country" placeholder="Apt, Unit, Suite, etc (Optional)">
+						</div>
+					</div>
+					<div class="row mb-3">
+						<div class="col-md-6">
+
+							<input type="email" class="form-control" id="customerEmail" placeholder="Email Address">
+						</div>
+						<div class="col-md-6">
+
+							<input type="tel" class="form-control" id="customerPhone"
+								placeholder="Phone">
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Right Column (Order Details) -->
+			<div class="col-md-4 order-details">
+				<div class="col-md-12">
+					<h4>ORDER DETAILS</h4>
+					<div class="d-flex justify-content-between align-items-center mb-3">
+						<span>Order # :</span>
+						<spanp>R432767019-850</span>
+					</div>
+					<hr>
+					<div class="input-group mb-3">
+						<span class="input-group-text">Coupon Code</span>
+						<input type="text" class="form-control" placeholder="Enter coupon code" aria-label="Coupon Code"
+							aria-describedby="couponCode">
+						<!-- <button class="btn" style="width: 20%;" type="button">Apply</button> -->
+						<a href="#" style="margin-top: 1%;">Apply</a>
+					</div>
+				</div>
+				<hr>
+				<div class="col-md-12">
+					<div class="d-flex justify-content-between align-items-center">
+						<span>Order Amount</span>
+						<span>120.000</span>
+					</div>
+					<hr>
+					<div class="d-flex justify-content-between align-items-center">
+						<h5>Total Amount</h5>
+						<h5>INR 120.000</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<h2>Payment Information</h2>
+		<div class="row">
+			<div class="col-md-2">
+				<div class="list-group" style="margin-top: 10%; ">
+					<button type="button" class="mb-4 btn">Credit Card</button>
+					<button type="button" class="mb-4 btn">Debit Card</button>
+					<button type="button" class="mb-4 btn">Net Banking</button>
+					<button type="button" class="mb-4 btn">Wallet</button>
+					<button type="button" class="mb-4 btn">UPI</button>
+					<button type="button" class="mb-4 btn">EMI Options</button>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="row" style="border: 1px solid;border-radius: 20px; margin-top: 3%;">
+					<div class="col-md-12 mb-2">
+						<div class="d-flex align-items-center">
+							<span>We Accept : </span>
+							<div>
+								<img src="../asstes/image/ordercompilte/page-3-1.png" alt="Visa" width="40" height="auto">
+								<img src="../asstes/image/ordercompilte/page-3-2.png" alt="Master card" width="40" height="auto">
+								<img src="../asstes/image/ordercompilte/page-3-3.png" alt="" width="40" height="auto">
+								<img src="../asstes/image/ordercompilte/page-3-4.png" alt="" width="30" height="auto">
+								<img src="../asstes/image/ordercompilte/Screenshot_2024-04-21_124610-removebg-preview.png" alt="" width="40" height="auto">
+							</div>
+
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="mb-3">
+							<label for="cardNumber" class="form-label">Card Number</label>
+							<input type="text" class="form-control" id="cardNumber">
+						</div>
+						<div class="row mb-3">
+							<div class="col">
+								<label for="expiryMonth" class="form-label">Expiry Date</label>
+								<div class="row">
+									<div class="col">
+										<input type="text" class="form-control" id="expiryMonth" placeholder="Month">
+									</div>
+									<div class="col">
+										<input type="text" class="form-control" id="expiryYear" placeholder="Year">
+									</div>
+								</div>
+							</div>
+							<div class="col">
+								<label for="cvc" class="form-label">CVV</label>
+								<input type="text" class="form-control" id="cvv" placeholder="cvv">
+							</div>
+						</div>
+						<div class="mb-3 ">
+							<label class="">I agree with the privacy policy by proceeding with this
+								payment..  </label>
+						</div>
+						<div class="mb-3">
+							<p class="fw-bold">INR 120.000</p>
+						</div>
+						<div class="text-center">
+							<a href="../success/payment sueccssful.html"><button type="submit" class="btn" style="padding: 5px 100px; width: 50%;">Make Payment</button></a><br>
+						</div>
+						<div class="text-center">
+							<a href="#">Cancel</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+    <div class="container-fluid mt-5 ftr" style="background-color: #213236; color: white;">
+        <div class="row text-white ">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 p-5">
+                <p class="fw-bold">Let's be friends</p>
+                <i class="fa-brands fa-facebook me-2"></i>
+                <i class="fa-brands fa-instagram me-2"></i>
+                <i class="fa-brands fa-twitter me-2"></i>
+                <i class="fa-brands fa-youtube me-2"></i>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 p-5">
+                <h5 class="ms-4">About Us</h5>
+                <ul class="mt-3">
+                    <li>Shop</li>
+                    <li>Terms & Conditions</li>
+                    <li>Terms of Use</li>
+                    <li>Privacy Policy</li>
+                    <li>Refunds</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 p-5">
+                <h5 class="ms-4">Info</h5>
+                <ul class="mt-3">
+                    <li>Home</li>
+                    <li>Craft</li>
+                    <li>Hobbies</li>
+                    <li>Diy Sets</li>
+                    <li>Decor</li>
+                </ul>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 p-5">
+                <h5>Contact Us</h5>
+                <p class="mt-3">Email : info@asianhobbycraft.com</p>
+                <p>Address : 376, Sector 7, IMT Manesar Gurugram 122050</p>
+                <p>Contact no.: +91 1234567895  </p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 text-white text-center">
+                <p>COPYRIGHT @ 2022 INDIA CRAFT WEEK SHOP - ALL RIGHTS RESERVED CRAFT VILLAGE (C)</p>
+            </div>
+        </div>
+    </div>
+
+	<!-- Bootstrap JS (optional, for certain components that require JavaScript) -->
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

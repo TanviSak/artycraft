@@ -10,14 +10,9 @@
     font-weight: bold;
 }
 
-.sec1 {
+.logo{
 
-    height: 600px;
-    width: 100%;
-    background-color: bisque;
-    background-image: url(https://thumbs.dreamstime.com/b/merry-christmas-new-year-holiday-christmas-background-handmade-present-gift-boxes-tag-merry-christmas-new-year-126990543.jpg);
-    background-position: center;
-    /* background-size: cover; */
+    height:50px;
 }
 
 .carousel-tex {
@@ -63,19 +58,8 @@
     text-align: center
 }
 
-.box1 {
-    /* height: 400px;
-    width: 260px;
-    border-top-right-radius: 150px;
-    border-top-left-radius: 150px;
-    float: left;
-    margin-top: 70px;
-    margin-left: 170px; */
-}
-
 .box2 {
-    background-image: url(https://roomester.ru/wp-content/uploads/2018/12/rezba-po-derevu-1-1062x690.jpg);
-    /* width: 250px; */
+    background-image: url(../asstes/image/mainhome/ci1.webp);
     height: 240px !important;
     margin: 0 auto;
     background-size: cover;
@@ -90,18 +74,9 @@
     padding-top: 20px;
 }
 
-.box3 {
-    height: 400px;
-    width: 260px;
-    border-top-right-radius: 150px;
-    border-top-left-radius: 150px;
-    float: left;
-    margin-top: 70px;
-    margin-left: 170px;
-}
 
 .box4 {
-    background-image: url(https://i.pinimg.com/736x/99/d7/74/99d77402d19f6ab73408430fd010a1ad.jpg);
+    background-image: url(../asstes/image/mainhome/ci2.jpg);
     width: 250px;
     height: 240px !important;
     margin: 0 auto;
@@ -118,19 +93,8 @@
     padding-top: 20px;
 }
 
-
-.box5 {
-
-    height: 400px;
-    width: 260px;
-    border-radius: 30px;
-    float: left;
-    margin-top: 70px;
-    margin-left: 170px;
-}
-
 .box6 {
-    background-image: url(https://rulend.ru/images/products/84/48/28/8448281-2.jpg);
+    background-image: url(../asstes/image/mainhome/ci3.jpg);
     width: 250px;
     height: 240px !important;
     margin: 0 auto;
@@ -181,7 +145,6 @@
 .box7 {
 
     height: 500px;
-    /* background-color: rgb(116, 112, 112); */
     width: 500px;
     float: left;
     margin-left: 80px;
@@ -279,7 +242,7 @@
 .box8 {
     height: 200px;
     width: 280px;
-    background-image: url(https://template74678.motopreview.com/mt-demo/74600/74678/mt-content/uploads/2018/11/mt-1652-blog-img-8.jpg);
+    background-image: url(../asstes/image/mainhome/craft\ img.jpg);
     background-size: cover;
     margin: 0 auto;
     border-radius: 20px;
@@ -304,7 +267,7 @@
 }
 
 .box10 {
-    background-image: url(https://mindmatrixwellnessstudio.com/wp-content/uploads/2018/11/Mind-icon-2-optimized.jpg);
+    background-image: url(../asstes/image/mainhome/ai1.jpg);
     background-size: cover;
     box-shadow: 5px 5px 20px rgb(81, 80, 80);
     margin: 0 auto;
@@ -335,7 +298,7 @@
     /* height: 200px;
     width: 280px; */
     background-color: rgb(198, 162, 109);
-    background-image: url(https://almatykilem.kz/uploads/catalog/navolocka-indijskij-slon-3-image-a1f7043457.jpg);
+    background-image: url(../asstes/image/mainhome/ai2.jpg);
     background-size: cover;
     /* border-top-right-radius: 100px; */
     /* border-top-left-radius: 100px; */
@@ -367,7 +330,7 @@
 .box14 {
     height: 200px;
     width: 280px;
-    background-image: url(https://i.pinimg.com/736x/34/59/02/34590228138b51208a52751faa6fa620.jpg);
+    background-image: url(../asstes/image/mainhome/ai3.webp);
     background-size: cover;
     /* border-top-right-radius: 100px; */
     /* border-top-left-radius: 100px; */
@@ -387,7 +350,7 @@
 .box15 {
     height: 250px;
     width: 450px;
-    background-image: url(../assets/last\ img.png);
+    background-image: url(../asstes/image/mainhome/art\ img.png);
     background-size: cover;
     margin: 0 auto;
     border-radius: 20px;
@@ -397,7 +360,6 @@
     padding: 50px 0;
 }
 
-.section p {}
 
 /* Footer*/
 i {
