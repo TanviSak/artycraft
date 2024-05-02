@@ -21,7 +21,7 @@ h4 a{
 .mainImg{
     width: 500px;
     height: 550px;
-    object-fit: cover;
+    object-fit: contain;
 }
 .smImage{
     width: 80px ;
