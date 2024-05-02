@@ -1,0 +1,218 @@
+* {
+    box-sizing: border-box;
+}
+
+.imge {
+    background-image: url(https://img1.wsimg.com/isteam/ip/eb4ce966-e3f0-4aa9-b0c9-5bcbb4d23dea/IMG_1140.JPG/:/rs=w:1968,h:903);
+    height: 800px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.t1 {
+    font-family: 'Abril Fatface';
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(48, 42, 84);
+}
+
+.btn1 {
+    border: 1px solid rgb(48, 42, 84);
+    background-color: transparent;
+    padding: 10px;
+    color: rgb(48, 42, 84);
+}
+
+.btn1:hover {
+    background-color: rgb(48, 42, 84);
+    color: white;
+}
+
+.imges {
+    padding-top: 60px;
+    height: 450px;
+    width: 340px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+    transition: transform 0.3s ease;
+
+}
+
+.imges:hover {
+    transform: scale(1.1);
+}
+
+.link {
+    height: 70px;
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.link1 {
+    height: 70px;
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.link2 {
+    height: 65px;
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.link3 {
+    height: 65px;
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.link4 {
+    height: 70px;
+    width: auto;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.contact {
+    text-align: center;
+}
+
+.contact-inner {
+    display: flex;
+}
+
+.contact-inner-data {
+    margin-left: 177px;
+    margin-top: 114px;
+}
+
+.contact-inner-data h2 {
+    font-family: Arial;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32.2px;
+    text-align: left;
+    margin-bottom: 61px;
+}
+
+.contact-inner-data h3 {
+    font-family: Arial;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 39.1px;
+    text-align: left;
+}
+
+.contact-btn {
+    margin-top: 61px;
+    width: 364px;
+    height: 73px;
+    top: 2924px;
+    left: 177px;
+    border: 1px;
+}
+
+.contact-btn button {
+    width: 383px;
+    height: 47px;
+    top: 2949px;
+    left: 239px;
+}
+
+.contact-img img {
+    width: 569px;
+    height: 379px;
+    margin-left: 60px;
+    margin-top: 84px;
+    
+}
+
+/* For screens smaller than 576px (extra small devices) */
+@media (max-width: 575.98px) {
+    .imge {
+        height: 400px;
+    }
+
+    .t1 {
+        padding-top: 20px;
+    }
+
+    .btn1 {
+        padding: 8px;
+    }
+
+    .imges {
+        height: 300px;
+        width: 220px;
+    }
+
+    .link, .link1, .link2, .link3, .link4 {
+        height: 50px;
+    }
+
+    .contact-inner {
+        flex-direction: column;
+    }
+
+    .contact-inner-data {
+        margin: 0;
+        text-align: center;
+    }
+
+    .contact-inner-data h2,
+    .contact-inner-data h3 {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .contact-btn {
+        margin: 30px auto;
+        width: 80%;
+    }
+
+    .contact-btn button {
+        width: 100%;
+    }
+
+    .contact-img img {
+        width: 80%;
+        margin: 30px auto;
+        margin-left: 55px;
+        
+    }
+}
+
+/* For screens between 576px and 767.98px (small devices) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /* Adjust styles accordingly */
+}
+
+/* For screens between 768px and 991.98px (medium devices) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /* Adjust styles accordingly */
+}
+
+/* For screens between 992px and 1199.98px (large devices) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Adjust styles accordingly */
+}
+
+/* For screens larger than 1200px (extra large devices) */
+@media (min-width: 1200px) {
+    /* Adjust styles accordingly */
+}

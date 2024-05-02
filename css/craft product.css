@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root color */
+:root{
+    --blue-color: #213236;
+}
+
+/* Navbar */
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.greyBox{
+    background-color: rgb(183, 183, 183);
+}
+.greyBox img{
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+}
+.btnWhite{
+    width: 150px;
+    height: 50px;
+    border: 2px solid var(--blue-color);
+    /* text-decoration: none; */
+}
+.btnWhite:hover{
+    background-color: var(--blue-color);
+    color: white;
+}
+.logot{
+    height: 50px;
+}
+.an{
+    text-decoration: none;
+    color: black;
+ 
+
+}
+.an:hover{
+    background-color: var(--blue-color);
+    color: white;
+}

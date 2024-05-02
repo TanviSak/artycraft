@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Root color */
+:root{
+    --blue-color: #213236;
+}
+
+/* Navbar */
+.nav-link:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+/* Main Image */
+.mainImage{
+    background-image: url('../../asstes/image/spiritual/shrinathji.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainImage h1{
+    color: white;
+    font-weight: bold;
+    font-size: 5vw;
+    text-align: center;
+}
+
+
+/* Content Image */
+img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+}
+img:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+
+.item{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.t1{
+    font-size: 0.9vw;
+    margin-bottom: 8px;
+    color: rgb(89, 89, 89);
+    font-family: "Droid Sans", arial, sans-serif;
+}
+
+.t2{       
+    font-size: 1.3vw;
+    line-height: 1.25;
+    margin-bottom: 8px;
+    font-family: "Droid Sans", arial, sans-serif;
+}
+
+.pr{
+    font-size: 1.1vw;
+    font-family: "Droid Sans", arial, sans-serif;
+}
+
+
+
+/* Footer */
+i{
+    font-size: 25px;
+}
+ul{
+    list-style-type: none;
+}
+i:hover{
+    transform: scale(1.3);
+    transition: transform 0.3s ease;
+}
+.copyright{
+    font-size: 10px;
+}
+
+
+
+
+
+/* Media Query */
+@media screen and (max-width: 1400px) {
+    img{
+        width: 350px;
+    }
+    .t1{
+        font-size: 1vw;
+    }
+    .t2{
+        font-size: 1.6vw;
+    }
+    .pr{
+        font-size: 1.2vw;
+    }
+    .item{
+        margin-left: 5px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1200px) {
+    img{
+        width: 300px;
+        margin: auto;
+    }
+    .t1{
+        font-size: 1.1vw;
+    }
+    .t2{
+        font-size: 1.6vw;
+    }
+    .pr{
+        font-size: 1.3vw;
+    }
+    .item{
+        margin-left: 10px;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    img{
+        width: 350px;
+    }
+    .t1{
+        font-size: 1.3vw;
+    }
+    .t2{
+        font-size: 2vw;
+    }
+    .pr{
+        font-size: 1.5vw;
+    }
+    .item{
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .mainImage h1{
+        font-size: 8vw;
+    }
+    img{
+        width: 500px;
+    }
+    .t1{
+        font-size: 1.8vw;
+    }
+    .t2{
+        font-size: 2.5vw;
+    }
+    .pr{
+        font-size: 1.9vw;
+    }
+    .item{
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .mainImage h1{
+        font-size: 10vw;
+    }
+    img{
+        width: 430px;
+    }
+    .t1{
+        font-size: 1.8vw;
+    }
+    .t2{
+        font-size: 2.5vw;
+    }
+    .pr{
+        font-size: 2vw;
+    }
+    .item{
+        margin-left: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .mainImage h1{
+        font-size: 12vw;
+    }
+    img{
+        width: 280px;
+    }
+    .t1{
+        font-size: 2.5vw;
+    }
+    .t2{
+        font-size: 4vw;
+    }
+    .pr{
+        font-size: 3vw;
+    }
+    .item{
+        margin-left: 20px;
+    }
+    
+}
